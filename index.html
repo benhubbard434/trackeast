@@ -19,7 +19,12 @@
 
   .container {width: 30%; margin: 20px;}
 
-  .credits {position:fixed;bottom: 0;right: 0;}
+  .logo {padding: 20px}
+  .logo_img {width: 200px;}
+
+  .menu {position: absolute; top: 0; bottom: 0; left: 0; width: 240px;}
+
+  .credits {position:fixed;bottom: 0;left: 0;}
   .credits p {font-size: 0.8em; color: white;}
   .credits p a {color: white;}
 
@@ -32,16 +37,21 @@
 </head>
 <body>
   <div class="container">
-    <div class="logo">
-      <img src="/images/logo_white.png" alt="Track East logo" class="logo-img">
+    <div class="menu">
+      <div class="logo">
+        <img src="/images/logo_white.png" alt="Track East logo" class="logo-img">
+      </div>
+      <div class="info">
+        <h3>Every Thursday</h3>
+        <h3>Mile End Stadium, 7pm</h3>
+      </div>
+      <div class="credits">
+        <p class="photographer">📸 by <a href=https://www.instagram.com/simonrphoto/>Simon Roberts</a><p>
+        <p class="model">💁 Will Lockwood</p>
+      </div>
     </div>
-    
-    <h3>Every Thursday</h3>
-    <h3>Mile End Stadium, 7pm</h3>
+
   </div>
-  <div class="credits">
-    <p class="photographer">📸 by <a href=https://www.instagram.com/simonrphoto/>Simon Roberts</a><p>
-    <p class="model">💁 Will Lockwood</p>
-  </div>
+
 </body>
 </html>
