@@ -10,12 +10,12 @@
         * {box-sizing: border-box;}
         /* Body & general styles */
         body{background: black; padding: 0 50px 50px 50px;}
-        h1 {font-size:36px; line-height: 36px; font-weight: 800; margin-bottom: 14px; margin-top: 25px;}
-        h2 {font-size:32px; line-height: 36px; font-weight: 800; margin-bottom: 14px; margin-top: 25px;}
-        h3 {font-size:28px; line-height: 36px; font-weight: 800; margin-bottom: 14px; margin-top: 25px;}
-        h4 {font-size:24px; line-height: 36px; font-weight: 800; margin-bottom: 14px; margin-top: 25px;}
-        h5 {font-size:16px; line-height: 36px; font-weight: 800; margin-bottom: 14px; margin-top: 25px;}
-        p {font-size:16px; line-height: 24px; margin-bottom: 1px}
+        h1 {font-size:12px; line-height: 36px; margin-bottom: 14px; margin-top: 25px;font-family: 'Helvetica Light', Helvetica,Arial,sans-serif; font-weight:100;text-transform: uppercase;letter-spacing: 5px;}
+        h2 {font-size:12px; line-height: 36px; margin-bottom: 14px; margin-top: 25px;font-family: 'Helvetica Light', Helvetica,Arial,sans-serif;font-weight:100;text-transform: uppercase;letter-spacing: 5px;}
+        h3 {font-size:12px; line-height: 36px; margin-bottom: 14px; margin-top: 25px;font-family: 'Helvetica Light', Helvetica,Arial,sans-serif;font-weight:100;text-transform: uppercase;letter-spacing: 5px;}
+        h4 {font-size:12px; line-height: 36px; margin-bottom: 14px; margin-top: 25px;font-family: 'Helvetica Light', Helvetica,Arial,sans-serif;font-weight:100;text-transform: uppercase;letter-spacing: 5px;}
+        h5 {font-size:12px; line-height: 36px; margin-bottom: 14px; margin-top: 25px;font-family: 'Helvetica Light', Helvetica,Arial,sans-serif;font-weight:100;text-transform: uppercase;letter-spacing: 5px;}
+        p {font-size:12px; line-height: 36px; margin-bottom: 1px; font-family: Helvetica,Arial,sans-serif;font-weight:100; letter-spacing: 2px;}
         a {}
         * {color:white;}
         .clear {clear: both;}
@@ -28,6 +28,10 @@
         .menu ul li a {display: block; width: 95%; text-align: center; margin: 0 auto; padding: 8px 0;}
         /* Main section */
         .main-section {width: 80%; margin: 0 auto;}
+        .three-col-box {width: 33%; float: left;}
+        .three-col-box-left {padding-right: 20px;}
+        .three-col-box-middle {padding: 0 20px;}
+        .three-col-box-right {padding-left: 20px;}
     </style>
   </head>
   <body>
@@ -48,12 +52,19 @@
       <div class="section" id="when">
         <h2>Sign up</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis turpis eget ante pharetra, ut ornare eros sagittis. Maecenas condimentum quam eu urna fringilla, a gravida tortor tempus. Aliquam euismod pretium justo, eget consectetur nunc congue non. In tincidunt lobortis dui vitae vulputate. Suspendisse sollicitudin fermentum venenatis. Proin pellentesque sit amet ligula sed sagittis. Morbi imperdiet sodales mi, quis cursus augue porttitor vitae. Ut et arcu condimentum, euismod elit non, sodales nibh. Nullam placerat ultricies enim nec pulvinar. Sed nec libero ac urna placerat porta vel mollis mauris. Ut a dapibus purus, non tincidunt mi. Morbi vel eros ut quam hendrerit sagittis at non purus. Ut ultrices, diam et dapibus vestibulum, nibh magna consequat ipsum, eget luctus elit sem non turpis. Nulla ante nisl, eleifend non auctor at, dictum at libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer porttitor consequat tellus ac gravida.</p>
-        <h4>Sign up for the race</h4>
-        <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
-        <h4>Find the event on Facebook</h4>
-        <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
-        <h4>Let us know you're coming</h4>
-        <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
+        <div class="three-col-box three-col-box-left">
+          <h4>Sign up for the race</h4>
+          <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
+        </div>
+        <div class="three-col-box three-col-box-middle">
+          <h4>Find the event on Facebook</h4>
+          <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
+        </div>
+        <div class="three-col-box three-col-box-right">
+          <h4>Let us know you're coming</h4>
+          <p>Cras a ex vel felis commodo condimentum. Sed at viverra massa, id rhoncus turpis. Ut et dapibus elit, sit amet fringilla nisl. Fusce erat libero, efficitur sollicitudin erat sit amet, imperdiet elementum arcu. Vivamus ut ornare urna. In vitae turpis nibh. Mauris consequat auctor purus ut accumsan. In consectetur, risus nec ultricies scelerisque, augue justo interdum ex, in finibus ex ante vitae velit. Vivamus non maximus nunc.</p>
+        </div>
+        <div class="clear"></div>
       </div>
       <div class="section" id="what">
         <h2>What's happening</h2>
