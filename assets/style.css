@@ -25,7 +25,7 @@ body {background:black;}
 .scroller {height:25px;width:420px;overflow:hidden;position:relative}
 .scroller div{display:block;width:200%;height:30px;position:absolute;overflow:hidden;animation:scroller 5s linear infinite}
 .scroller span{float:left;width:50%;color:white;}
-@keyframes scroll{0%{left:0}100%{left:-100%}}
+@keyframes scroller{0%{left:0}100%{left:-100%}}
 
 /* Header */
 .logo {}
