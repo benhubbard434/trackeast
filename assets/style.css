@@ -18,10 +18,13 @@ body {background:black;}
 
 /*Scrolling area*/
 
-.scroller {height:25px;width:420px;overflow:hidden;position:relative}
-.scroller div{display:block;width:200%;height:30px;position:absolute;top:50px;overflow:hidden;animation:scroller 5s linear infinite}
-.scroller span{float:left;width:50%;color:white;}
-@keyframes scroller{0%{left:0}100%{left:-100%}}
+.marquee{margin:0 auto;white-space:nowrap;overflow:hidden;position:absolute;color:white;text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
+.marquee span{display:inline-block;padding-left:100%;animation:marquee 20s linear infinite}
+.marquee2 span{animation-delay:10s}
+@keyframes marquee{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}
+                   100%{-webkit-transform:translate(-100%,0);transform:translate(-100%,0)}
+          }
+
 
 /* Header */
 .logo {}
