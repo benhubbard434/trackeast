@@ -52,6 +52,6 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 
 /* Footer */
 .footer {width: 100%; background: #fc5202; position: relative;}
-.footer:before {background: inherit;top: 0;content: '';display: block;height: 50px;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}
+.footer:before {background: inherit;top: 0;content: '';display: block;height: 50px;left: 0;position: absolute;right: 0;transform: skewY(0.5deg);transform-origin: 100%;z-index: -1;}
 .footer-menu li {float: left; margin-right: 5px;}
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
