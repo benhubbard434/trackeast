@@ -10,7 +10,17 @@
   font-style: normal;
 }
 
+
+/* Resets*/
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+*, *:before, *:after {box-sizing: border-box;}
+
+/* Global styles */
+body {background: white;max-width:100%}
+.container {width: 100%; margin: 0 auto 20px auto;}
+.content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
+.clear {clear: both;}
 
 h1 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
 h2 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
@@ -21,20 +31,17 @@ h5 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
 p {font-family:'Franklin-Gothic-Bold';}
 a {font-family:'Franklin-Gothic-Bold';}
 
-
-/* Global styles */
-body {background: white;max-width:100%}
-.container {width: 100%; margin: 0 auto 20px auto;}
-.content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
-.clear {clear: both;}
-
 /* Header */
+
 .header {width: 100%; background: #EC008C;position: relative;z-index: 1;}
 .header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}
 .header .content {padding-bottom: 0;}
+
+marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;}
+
 .logo {width: 160px; padding: 20px 20px 20px 0;}
 .logo img {max-width: 100%}
-marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;}
+
 .menu {padding-bottom: 0;}
 .menu ul li {padding-dottom:5px}
 .menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:30px; color:#FFF200; text-decoration: none;}
@@ -45,5 +52,6 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 
 /* Footer */
 .footer {width: 100%; background: #fc5202}
+.footer:before {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}
 .footer-menu li {float: left; margin-right: 5px;}
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
