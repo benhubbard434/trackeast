@@ -59,7 +59,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 
 /* fun mode */
 
-.comic {font-family: 'Comic Sans'!important;}
+.comic {font-family: 'Comic Sans MS'!important;}
 
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
