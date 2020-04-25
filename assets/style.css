@@ -65,5 +65,12 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 }
 
 /* fun mode */
-
-.comic {font-family: 'Comic Sans MS'!important;}
+.comic h1{font-family: 'Comic Sans MS';}
+.comic h2{font-family: 'Comic Sans MS';}
+.comic h3{font-family: 'Comic Sans MS';}
+.comic h4{font-family: 'Comic Sans MS';}
+.comic h5{font-family: 'Comic Sans MS';}
+.comic p{font-family: 'Comic Sans MS';}
+.comic a{font-family: 'Comic Sans MS';}
+.comic marquee{font-family: 'Comic Sans MS';}
+.comic li{font-family: 'Comic Sans MS';}
