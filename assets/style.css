@@ -1,6 +1,6 @@
 /*Fonts*/
 @font-face {
-  font-family: "Franklin-Gothic";
+  font-family: "Franklin-Gothic-Bold";
 
   src: url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.otf") format("opentype"), /* Open Type Font */
        url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.ttf") format("truetype"), /* Safari, Android, iOS */
@@ -11,6 +11,16 @@
 }
 
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+h1 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
+h2 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
+h3 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
+h4 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
+h5 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';}
+
+p {font-family:'Franklin-Gothic-Bold';}
+a {font-family:'Franklin-Gothic-Bold';}
+
 
 /* Global styles */
 body {background: white;max-width:100%}
@@ -24,10 +34,10 @@ body {background: white;max-width:100%}
 .header .content {padding-bottom: 0;}
 .logo {width: 160px; padding: 20px 20px 20px 0;}
 .logo img {max-width: 100%}
-marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
+marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;}
 .menu {padding-bottom: 0;}
 .menu ul li {padding-dottom:5px}
-.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px; color:#FFF200; text-decoration: none;}
+.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:30px; color:#FFF200; text-decoration: none;}
 .menu ul li a:hover {color: #5921af}
 
 /* main section */
@@ -36,4 +46,4 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';f
 /* Footer */
 .footer {width: 100%; background: #fc5202}
 .footer-menu li {float: left; margin-right: 5px;}
-.footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:16px; color:#FFF200; text-decoration: none;}
+.footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
