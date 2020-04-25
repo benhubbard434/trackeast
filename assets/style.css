@@ -18,7 +18,8 @@ body {background: white;max-width:100%}
 .content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
 
 /* Header */
-.header {width: 100%; background: #EC008C;}
+.header {width: 100%; background: #EC008C;position: relative;z-index: 1;}
+.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-1.5deg);transform-origin: 100%;z-index: -1;}
 .logo {width: 160px; padding: 20px 20px 20px 0;}
 .logo img {max-width: 100%}
 marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
