@@ -19,11 +19,11 @@ body {background: white;max-width:100%}
 
 /* Header */
 .header {width: 100%; background: #EC008C;position: relative;z-index: 1;}
-.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-1.5deg);transform-origin: 100%;z-index: -1;}
+.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}
 .logo {width: 160px; padding: 20px 20px 20px 0;}
 .logo img {max-width: 100%}
 marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
-.menu {padding-bottom: 20px;}
+.menu {padding-bottom: 0;}
 .menu ul li {padding-dottom:5px}
 .menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px; color:#FFF200; text-decoration: none;}
 .menu ul li a:hover {color: #5921af}
