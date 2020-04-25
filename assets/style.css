@@ -25,3 +25,4 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';f
 .menu {padding-bottom: 20px;}
 .menu ul li {padding-dottom:5px}
 .menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px; color:#FFF200; text-decoration: none;}
+.menu ul li a:hover {color: #5921af}
