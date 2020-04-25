@@ -16,6 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 body {background: white;max-width:100%}
 .container {width: 100%; margin: 0 auto 20px auto;}
 .content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
+.clear {clear: both;}
 
 /* Header */
 .header {width: 100%; background: #EC008C;position: relative;z-index: 1;}
@@ -28,3 +29,11 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';f
 .menu ul li {padding-dottom:5px}
 .menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px; color:#FFF200; text-decoration: none;}
 .menu ul li a:hover {color: #5921af}
+
+/* main section */
+.main {margin-top: 60px;}
+
+/* Footer */
+.footer {width: 100%; background: #fc5202}
+.footer-menu li {float: left; margin-right: 5px;}
+.footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:16px; color:#FFF200; text-decoration: none;}
