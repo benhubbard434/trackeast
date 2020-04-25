@@ -57,6 +57,9 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
 .footer-menu li a:hover {color: #5921af}
 
+/* fun mode */
+
+.comic {font-family: 'Comic Sans'!important;}
 
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
