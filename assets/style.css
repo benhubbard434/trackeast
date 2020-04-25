@@ -21,5 +21,5 @@ body {background: white;max-width:100%}
 .header {width: 100%; background: #EC008C;}
 .logo {width: 160px; padding: 20px;}
 .logo img {max-width: 100%}
-marquee {color:#FFF200;text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
-.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px;}
+marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
+.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic'; font-size:30px; color:#FFF200; text-decoration: none;}
