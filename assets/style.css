@@ -58,7 +58,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .menu ul li a:hover {color: #5921af}
 
 /* main section */
-.main {margin-top: 60px; margin-bottom: 60px;}
+.main {margin-top: 80px; margin-bottom: 60px;}
 
 /* Footer */
 .footer {width: 100%; background: #fc5202; position: relative;}
@@ -67,11 +67,13 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
 .footer-menu li a:hover {color: #5921af}
 
-
+/* Callout */
+.callout {background: #1be7ff; margin: 10px 0 20px 0; padding: 20px;}
 
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
   .footer-menu li a {font-size: 12px;}
+  .comic .footer-menu li a {font-size: 11px;}
 }
 
 /* fun mode */
