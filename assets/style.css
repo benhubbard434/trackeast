@@ -19,7 +19,7 @@ body {background: white;max-width:100%}
 
 /* Header */
 .header {width: 100%; background: #EC008C;}
-.logo {width: 160px; padding: 20px;}
+.logo {width: 160px; padding: 20px 20px 20px 0;}
 .logo img {max-width: 100%}
 marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic';font-size:30px;}
 .menu {padding-bottom: 20px;}
