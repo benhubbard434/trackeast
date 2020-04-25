@@ -75,13 +75,13 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 }
 
 /* fun mode */
-.comic h1{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic h2{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic h3{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic h4{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic h5{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic p{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic a{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic marquee{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic li{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
-.comic li a{font-family: 'Comic Sans MS', 'ChalkboardSE-Regular', cursive;}
+.comic h1{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic h2{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic h3{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic h4{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic h5{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic p{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic a{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic marquee{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic li{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
+.comic li a{font-family: 'Comic Sans MS', 'Comic-Sans', 'ChalkboardSE-Regular', cursive;}
