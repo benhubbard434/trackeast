@@ -55,3 +55,10 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .footer:before {background: inherit;top: 0;content: '';display: block;height: 50px;left: 0;position: absolute;right: 0;transform: skewY(0.5deg);transform-origin: 100%;z-index: -1;}
 .footer-menu li {float: left; margin-right: 10px;}
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
+.footer-menu li a:hover {color: #5921af}
+
+
+/*Responsive*/
+@media all and (max-width: 500px) and (min-width: 0px) {
+  .footer-menu li a {font-size: 12px;}
+}
