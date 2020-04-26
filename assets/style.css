@@ -102,7 +102,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .main {margin-top: 80px; margin-bottom: 60px;}
 
 /* Footer */
-.footer {width: 100%; position: relative;}
+.footer {width: 100%; position: relative; background: #fc5202}
 .footer:before {background: inherit;top: 0;content: '';display: block;height: 50px;left: 0;position: absolute;right: 0;transform: skewY(0.5deg);transform-origin: 100%;z-index: -1;}
 .footer-menu li {float: left; margin-right: 10px;}
 .footer-menu li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:16px; color:#FFF200; text-decoration: none;}
