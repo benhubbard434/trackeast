@@ -71,7 +71,7 @@ h4 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size: 18px;
 h5 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size: 18px;color: #5921af;line-height:24px;}
 
 p {font-family:'Franklin-Gothic';font-size: 16px; color: #5921af;line-height:24px;}
-a {font-family:'Franklin-Gothic';text-decoration: underline; }
+a {font-family:'Franklin-Gothic';text-decoration: underline;color:inherit }
 
 .redfont {color: #f10b0f}
 .pinkfont {color: #ec008c}
@@ -112,7 +112,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 
 /* Callout */
 .callout {margin: 10px auto 20px auto; padding: 20px; max-width: 500px;font-family:'Franklin-Gothic-Bold';}
-.callout p {font-family:'Franklin-Gothic-Bold';}
+.callout p, .callout a {font-family:'Franklin-Gothic-Bold';}
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
   .footer-menu li a {font-size: 12px;}
