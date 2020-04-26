@@ -109,7 +109,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .footer-menu li a:hover {color: #5921af}
 
 /* Callout */
-.callout {background: #1be7ff; margin: 10px 0 20px 0; padding: 20px;}
+.callout {margin: 10px 0 20px 0; padding: 20px;}
 
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
