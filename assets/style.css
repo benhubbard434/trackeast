@@ -36,11 +36,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 *, *:before, *:after {box-sizing: border-box;}
 
+/* Colours
+
+red: #f10b0f
+pink: #ec008c
+yellow: #fff200
+orange: #fc5202
+purple: #5921af
+turquoise: #1be7ff
+sky blue: #00afef
+lime green: #e3f205
+
+*/
+
 /* Global styles */
-body {background: white;max-width:100%}
+body {background: white; max-width:100%}
 .container {width: 100%; margin: 0 auto;}
 .content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
 .clear {clear: both;}
+
+.redbg {background: #f10b0f}
+.pinkbg {background: #ec008c}
+.yellowbg {background: #fff200}
+.orangebg {background: #fc5202}
+.purplebg {background: #5921af}
+.turquoisebg {background: #1be7ff}
+.sky-bluebg {background: #00afef}
+.lime-greenbg {background: #e3f205}
 
 h1 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size: 30px;color: #5921af;line-height: 36px;}
 h2 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size: 24px;color: #5921af;line-height: 30px;}
@@ -50,6 +72,15 @@ h5 {text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size: 18px;
 
 p {font-family:'Franklin-Gothic';font-size: 16px; color: #5921af;line-height:24px;}
 a {font-family:'Franklin-Gothic';color:#fc5202; text-decoration: none; }
+
+.redfont {color: #f10b0f}
+.pinkfont {color: #ec008c}
+.yellowfont {color: #fff200}
+.orangefont {color: #fc5202}
+.purplefont {color: #5921af}
+.turquoisefont {color: #1be7ff}
+.sky-bluefont {color: #00afef}
+.lime-greenfont {color: #e3f205}
 
 /* Header */
 
