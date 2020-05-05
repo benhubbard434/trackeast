@@ -50,7 +50,7 @@ lime green: #e3f205
 */
 
 /* Global styles */
-body {background: white; max-width:100%}
+body {background: #fff200; max-width:100%}
 .container {width: 100%; margin: 0 auto;}
 .content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
 .clear {clear: both;}
