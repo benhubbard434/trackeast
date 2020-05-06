@@ -111,7 +111,7 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .fake-link:hover {color: #5921af}
 
 /* Callout */
-.callout {margin: 10px auto 20px auto; padding: 20px; max-width: 500px;font-family:'Franklin-Gothic-Bold';}
+.callout {margin: 10px auto 20px auto; padding: 20px; max-width: 500px;font-family:'Franklin-Gothic-Bold'; border: 3px solid #5921af;}
 .callout p, .callout a {font-family:'Franklin-Gothic-Bold';}
 /*Responsive*/
 @media all and (max-width: 500px) and (min-width: 0px) {
