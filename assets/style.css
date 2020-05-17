@@ -113,11 +113,11 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 /* Callout */
 .callout {margin: 10px auto 20px auto; padding: 20px; max-width: 500px;font-family:'Franklin-Gothic-Bold'; border: 3px solid #ec008c;}
 .callout p, .callout a {font-family:'Franklin-Gothic-Bold';}
-/*Responsive*/
+
 @media all and (max-width: 500px) and (min-width: 0px) {
   .footer-menu li a {font-size: 12px;}
   .comic .footer-menu li a {font-size: 11px;}
-  .main {margin-top: 40px; margin-bottom: 20px;}
+  .main {margin-top: 400px; margin-bottom: 20px;}
 }
 
 /* fun mode */
