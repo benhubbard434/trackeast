@@ -88,13 +88,13 @@ a {font-family:'Franklin-Gothic';text-decoration: underline;color:inherit }
 /*.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}*/
 .header .content {padding-bottom: 0;}
 
-marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;}
+marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;padding-top:5px;}
 
-.logo {width: 160px; padding: 5px;}
+.logo {width: 160px; padding: 5px; margin-bottom: 10px;}
 .logo img {max-width: 100%}
 
 .menu {padding-bottom: 0;}
-.menu ul li {padding-bottom:5px}
+.menu ul li {margin-bottom:10px}
 .menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:30px; color:#FFF200; text-decoration: none; padding: 5px 5px 0 5px;}
 .menu ul li a:hover {color: #5921af}
 
