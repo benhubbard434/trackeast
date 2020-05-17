@@ -50,7 +50,7 @@ lime green: #e3f205
 */
 
 /* Global styles */
-body { max-width:100%}
+body { max-width:100%; background: url('https://trackeast.co.uk/images/background.png');}
 .container {width: 100%; margin: 0 auto;}
 .content {width: 95%; max-width: 960px; padding: 20px; margin: 0 auto;}
 .clear {clear: both;}
