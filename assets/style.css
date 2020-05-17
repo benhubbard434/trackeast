@@ -85,7 +85,7 @@ a {font-family:'Franklin-Gothic';text-decoration: underline;color:inherit }
 /* Header */
 
 .header {width: 100%; position: relative;z-index: 1;}
-.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}
+/*.header:after {background: inherit;bottom: 0;content: '';display: block;height: 50%;left: 0;position: absolute;right: 0;transform: skewY(-2.5deg);transform-origin: 100%;z-index: -1;}*/
 .header .content {padding-bottom: 0;}
 
 marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bold';font-size:30px;}
