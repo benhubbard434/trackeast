@@ -94,8 +94,8 @@ marquee {color:#FFF200; text-transform:uppercase;font-family:'Franklin-Gothic-Bo
 .logo img {max-width: 100%}
 
 .menu {padding-bottom: 0;}
-.menu ul li {padding-dottom:5px}
-.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:30px; color:#FFF200; text-decoration: none;}
+.menu ul li {padding-bottom:5px}
+.menu ul li a {text-transform:uppercase; font-family:'Franklin-Gothic-Bold'; font-size:30px; color:#FFF200; text-decoration: none; padding: 5px 5px 0 5px;}
 .menu ul li a:hover {color: #5921af}
 
 /* main section */
