@@ -37,7 +37,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 *, *:before, *:after {box-sizing: border-box;}
 
 img {max-width: 100%;}
-
+.clear {clear:both;}
 /* styles */
 
 body {background: black;}
@@ -46,4 +46,9 @@ body {background: black;}
 .logo {max-width: 250px; width: 50%;}
 * {color: white;}
 h1, h2, h3, h4, h5 {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif;}
-p {font-family:'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif;}
+h1 {}
+h2 {font-size: 48px; text-transform: uppercase; margin-bottom: 25px;}
+p {font-family:'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin-bottom: 12px;}
+.footer-menu li {float: left; margin-right: 10px;}
+.footer-menu li a {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif; text-decoration: none; text-transform: uppercase; font-size: 16px;}
+.footer-menu {margin-bottom: 25px; margin-top: 25px}
