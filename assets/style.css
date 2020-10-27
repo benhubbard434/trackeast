@@ -36,6 +36,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 *, *:before, *:after {box-sizing: border-box;}
 
+img {max-width: 100%;}
 
 /* styles */
 
@@ -45,4 +46,4 @@ body {background: black;}
 .logo {max-width: 250px; width: 50%;}
 * {color: white;}
 h1, h2, h3, h4, h5 {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif;}
-p {'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif;}
+p {font-family:'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif;}
