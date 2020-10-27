@@ -2,9 +2,9 @@
 @font-face {
   font-family: "Franklin-Gothic-Bold";
 
-  src: url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.otf") format("opentype"), /* Open Type Font */
-       url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.woff") format("woff"); /* Modern Browsers */
+  src: url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.otf") format("opentype"), /* Open Type Font */
+       url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Demi.woff") format("woff"); /* Modern Browsers */
     
   font-weight: normal;
   font-style: normal;
@@ -13,9 +13,9 @@
 @font-face {
   font-family: "Franklin-Gothic";
 
-  src: url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.otf") format("opentype"), /* Open Type Font */
-       url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("http://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.woff") format("woff"); /* Modern Browsers */
+  src: url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.otf") format("opentype"), /* Open Type Font */
+       url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("https://trackeast.co.uk/assets/ITCFranklinGothicStd-Book.woff") format("woff"); /* Modern Browsers */
     
   font-weight: normal;
   font-style: normal;
