@@ -36,3 +36,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 *, *:before, *:after {box-sizing: border-box;}
 
+
+/* styles */
+
+body {background: black;}
+.container {max-width: 1000px; width: 95%; padding: 25px; margin: 0 auto;}
+.header {padding: 25px 0;}
+.logo {max-width: 250px; width: 50%;}
+* {color: white;}
+h1, h2, h3, h4, h5 {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif;}
+p {'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif;}
