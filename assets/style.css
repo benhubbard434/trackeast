@@ -46,4 +46,5 @@ marquee {position: absolute; bottom: 0; left: 0; right: 0; font-family: 'Frankli
 
 @media only screen and (max-width: 500px) {
   marquee {display:none;} 
+  .container {padding-left: 0px; padding-right: 0px;}
 }
