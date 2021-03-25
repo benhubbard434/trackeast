@@ -48,7 +48,7 @@ marquee {position: absolute; bottom: 0; left: 0; right: 0; font-family: 'Frankli
 .emailoctopus-form-row input {font-family:'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif; font-size: 14px; color: black; padding: 5px 8px;margin-bottom: 12px;}
 .emailoctopus-form-row-hp {display:none;
 
-@media only screen and (max-width: 500px) {
+@media only screen (max-width: 500px) {
   marquee {display:none;} 
   .container {padding-left: 0px; padding-right: 0px;}
 }
