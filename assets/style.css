@@ -39,10 +39,10 @@ body {background: black;}
 .logo {max-width: 250px; width: 50%;}
 * {color: white;}
 h1, h2, h3, h4, h5 {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif;}
-h1 {font-size: 56px; text-transform: uppercase; margin-bottom: 25px;}
-h2 {font-size: 48px; text-transform: uppercase; margin-bottom: 25px;}
-h3 {font-size: 36px; text-transform: uppercase; margin-bottom: 25px;}
-h4 {font-size: 24px; text-transform: uppercase; margin-bottom: 25px;}
+h1 {font-size: 28px; text-transform: uppercase; margin-bottom: 25px;}
+h2 {font-size: 22px; text-transform: uppercase; margin-bottom: 25px;}
+h3 {font-size: 22px; text-transform: uppercase; margin-bottom: 25px;}
+h4 {font-size: 22px; text-transform: uppercase; margin-bottom: 25px;}
 h5 {font-size: 18px; text-transform: uppercase; margin-bottom: 25px;}
 p {font-family:'Franklin-Gothic', 'Helvetica', 'Arial', sans-serif; font-size: 18px; margin-bottom: 12px; line-height: 24px}
 .footer-menu li {float: left; margin-right: 10px;}
