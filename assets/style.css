@@ -27,6 +27,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 *, *:before, *:after {box-sizing: border-box;}
 
 input:focus {outline:none;}
+textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox {-webkit-appearance: none; border-radius: 0;}
 
 img {max-width: 100%;}
 .clear {clear:both;}
