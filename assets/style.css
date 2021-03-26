@@ -26,7 +26,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 *, *:before, *:after {box-sizing: border-box;}
 
-*:selction, *:focus {outline:none}
+input:focus {outline:none;}
 
 img {max-width: 100%;}
 .clear {clear:both;}
