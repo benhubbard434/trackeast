@@ -65,4 +65,5 @@ marquee {font-family: 'Franklin-Gothic-Bold', 'Arial', sans-serif; text-decorati
 @media (max-width: 500px) {
    
   .container {padding-left: 0px; padding-right: 0px;}
+  ..emailoctopus-form-row input {width:100%;}
 }
